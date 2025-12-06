@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from src.MLProject.utils import logger
+from MLProject import logger
 import json
 import joblib
 from ensure import ensure_annotations
