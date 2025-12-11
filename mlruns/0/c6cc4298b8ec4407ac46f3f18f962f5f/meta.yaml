@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mukesk2/OneDrive%20-%20kochind.com/Tutorials/MLOPS/ML_Project1/mlruns/0/c6cc4298b8ec4407ac46f3f18f962f5f/artifacts
+end_time: 1765465167221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6cc4298b8ec4407ac46f3f18f962f5f
+run_name: fortunate-ray-880
+run_uuid: c6cc4298b8ec4407ac46f3f18f962f5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765465162882
+status: 4
+tags: []
+user_id: mukesk2

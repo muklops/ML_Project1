@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mukesk2/OneDrive%20-%20kochind.com/Tutorials/MLOPS/ML_Project1/mlruns/0/e8c5350abea94d9cb1fcdf5cc273eb57/artifacts
+end_time: 1765465758433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8c5350abea94d9cb1fcdf5cc273eb57
+run_name: rare-chimp-939
+run_uuid: e8c5350abea94d9cb1fcdf5cc273eb57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765465754420
+status: 3
+tags: []
+user_id: mukesk2
