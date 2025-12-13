@@ -60,7 +60,7 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "image=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" >> $GITHUB_ENV
 
-  Continuous-Deployment:
+Continuous-Deployment:
   name: Continuous Deployment
   needs: build-and-push-ecr-image
   runs-on: self-hosted
@@ -78,7 +78,7 @@ jobs:
     - name: Login to Amazon ECR
       uses: aws-actions/amazon-ecr-login@v1
 
-    - name: Pull latest image from ECR
+    - name: Pull latest Docker image from ECR
       run: |
         docker pull ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
 
@@ -102,3 +102,4 @@ jobs:
     - name: Clean up old Docker images and containers
       run: |
         docker system prune -f
+
