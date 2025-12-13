@@ -1,4 +1,6 @@
-FROM python:3.8-slim-buster
+FROM python:3.10-slim
+
+
 
 # Install minimal system deps
 RUN apt-get update && apt-get install -y \
